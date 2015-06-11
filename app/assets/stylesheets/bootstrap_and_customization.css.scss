@@ -1,13 +1,35 @@
-$body-bg:	white;
-$navbar-default-bg: #34495e;
-$navbar-height: 45px;
-$navbar-default-color: white;
+@import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,700);
+$font-family: 							'Lobster', cursive;
+$font-family: 							'Open Sans', sans-serif;
+
+$body-bg:									 	#ecf0f1;
+
+$navbar-default-bg: 			 	#34495e;
+$navbar-height: 					 	45px;
+$navbar-default-color: 		 	white;
 $navbar-default-link-color: white;
 $navbar-default-link-hover-color: #bdc3c7;
-$jumbotron-padding: 30px;
-$jumbotron-color: #34495e;
-$jumbotron-bg: #ecf0f1;
-$brand-primary: #d35400;
+$nav-link-padding:	10px;
 
+$jumbotron-padding: 				30px;
+$jumbotron-color: 					#34495e;
+$jumbotron-bg: 							white;
+$jumbotron-font-size: 			50px;
 
+$brand-primary: 						#d35400;
+
+	
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-family:							'Lobster';
+	font-size:								30px;
+}
+
+.jumbotron {
+	font-family:							'Open Sans';
+}
