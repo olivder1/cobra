@@ -8,4 +8,8 @@ class Pin < ActiveRecord::Base
     :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
+
+  validates_attachment_content_type :image,
+  :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
+
 end
