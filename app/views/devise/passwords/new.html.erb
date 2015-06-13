@@ -14,11 +14,13 @@
 			  </div>
 
 			  <div class="form_group">
-			    <%= f.submit "Send me reset password instructions" %>
+			    <%= f.submit "Send me reset password instructions", class: "btn btn-primary" %>
 			  </div>
 			<% end %>
 		</div>
 
-<%= render "devise/shared/links" %>
+	<div class="panel-footer">
+		<%= render "devise/shared/links" %>
+	</div>
 
 </div>
