@@ -1,0 +1,24 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body > .container {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: white;
+}
+
+/*
+ * Responsive stypes
+ */
+@media (max-width: 980px) {
+
+  body > .container {
+    padding-top: 0;
+  }
+
+  
+  .navbar-fixed-top {
+    margin-bottom: 0;
+  }
+
+} /* END: @media (max-width: 980px) */

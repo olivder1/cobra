@@ -5,19 +5,18 @@ $font-family: 							'Open Sans', sans-serif;
 $body-bg:									 	#ecf0f1;
 
 $navbar-default-bg: 			 	#34495e;
-$navbar-height: 					 	45px;
+$navbar-height: 					 	40px;
 $navbar-default-color: 		 	white;
 $navbar-default-link-color: white;
 $navbar-default-link-hover-color: #bdc3c7;
-$nav-link-padding:	10px;
+$nav-link-padding:	25px;
 
 $jumbotron-padding: 				30px;
 $jumbotron-color: 					#34495e;
 $jumbotron-bg: 							white;
-$jumbotron-font-size: 			50px;
+$jumbotron-font-size: 			40px;
 
 $brand-primary: 						#d35400;
-
 	
 @import 'bootstrap';
 
@@ -27,7 +26,8 @@ $brand-primary: 						#d35400;
 
 .navbar-brand {
 	font-family:							'Lobster';
-	font-size:								30px;
+	font-size:								35px;
+	padding-top: 							14px;
 }
 
 .jumbotron {
