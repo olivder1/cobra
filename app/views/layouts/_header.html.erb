@@ -23,9 +23,11 @@
 
       <form class="navbar-form navbar-right">
         <div class="form-group">
-              <% if user_signed_in? %>
-          <%= link_to 'New Pin', new_pin_path, class: "btn btn-primary navbar-btn" %>
-        <% end %> 
+          <% if user_signed_in? %>
+            <%= link_to new_pin_path, class: "btn btn-primary navbar-btn"  do %>
+              <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> New Pin
+            <% end %>
+          <% end %> 
       </form>
 
       <ul class="nav navbar-nav navbar-right">

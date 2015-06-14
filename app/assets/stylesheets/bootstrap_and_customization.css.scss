@@ -2,7 +2,7 @@
 $font-family: 							'Lobster', cursive;
 $font-family: 							'Open Sans', sans-serif;
 
-$body-bg:									 	#ecf0f1;
+$body-bg:									 	white;
 
 $navbar-default-bg: 			 	#34495e;
 $navbar-height: 					 	40px;
@@ -13,11 +13,13 @@ $nav-link-padding:	25px;
 
 $jumbotron-padding: 				30px;
 $jumbotron-color: 					#34495e;
-$jumbotron-bg: 							white;
+$jumbotron-bg: 							#ecf0f1;
 $jumbotron-font-size: 			40px;
 
 $brand-primary: 						#d35400;
 	
+@import "bootstrap-sprockets";
+
 @import 'bootstrap';
 
 .center {
