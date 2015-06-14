@@ -2,7 +2,7 @@ class Pin < ActiveRecord::Base
 	belongs_to :user
 
 	has_attached_file :image, 
-	:styles => { :medium => "300x300>", :thumb => "100x100>" },
+	:styles => { :medium => "600x600>", :thumb => "100x100>" },
   :s3_credentials => {
     :bucket => ENV['AWS_BUCKET'],
     :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
